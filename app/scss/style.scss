@@ -1,0 +1,579 @@
+body{
+  font-family: 'Lato', sans-serif !important;
+}
+//<navigation>
+.wraper-navigation{
+  background-color: #0b104e;
+}
+.navigation{
+  margin-bottom: 0px !important;
+  background: -webkit-gradient(radial, center center, 0, center center, 394, from(#15569e), to(#0b104e)) !important;
+  border: none !important;
+}
+.logo-navbar{
+  width: 90px !important;
+}
+.menu-item{
+  margin: 0 auto;
+  text-align: center;
+}
+.menu-item-b{
+  width: 100%;
+  float: left;
+  border-bottom: 2px solid #e6b041;
+  margin: 0 auto;
+}
+.navbar-default .navbar-nav>li>a{
+  color: #fff !important;
+}
+.navbar-default .navbar-toggle{
+    background: none !important;
+    border: none !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color:  #e6b041 !important;
+}
+//<baner>
+.baner-top{
+  width: 100%;
+}
+.baner-title{
+   position: absolute;
+   width: 55%;
+   margin: 5px 0 0 10px;
+   background-color: rgba(0,0,0,0.6);
+   text-align: center;
+   color: #f5a700;
+   img{
+     width: 50%;
+   }
+ }
+ .baner-botom{
+   width: 100%;
+   position: absolute;
+   bottom: 0px;
+   background-color: rgba(255, 255, 255, 0.7);
+   text-align: center;
+   font-size: 10px;
+   font-weight:700;
+ }
+//<Sponsor>
+.sponsor-title{
+  text-align: center;
+}
+.sponsor-first img{
+  width: 100%;
+}
+.sponsor-second img{
+  width: 100%;
+}
+.sponsor-third img{
+  width: 40%;
+}
+//<slide>
+.slide-top{
+  width: 100%;
+}
+.wraper-slide-title{
+  position: absolute;
+  width: 100%;
+  margin-top: 70px;
+}
+.slide-title{
+  margin: 0 auto;
+  width: 95px;
+  height: 95px;
+  background-color: rgb(58, 96, 148);
+  text-align: center;
+  color: #f5a700;
+  border-radius: 50%;
+  span {
+    font-size: 9px;
+  }
+}
+.slide-botom{
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  font-size: 10px;
+  font-weight:700;
+  span:last-child{
+    color: #eb5c21;
+  }
+}
+//<foter>
+.foter{
+  background: -webkit-gradient(radial, center center, 0, center center, 394, from(#15569e), to(#0b104e)) !important;
+  color: #fff;
+  text-align: center;
+  img{
+    margin-bottom: 10px;
+  }
+}
+.foter-contact{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.foter-botton{
+    color: #f5a700;
+}
+//iphone 5
+@media only screen and (min-width: 375px){
+  .baner-title{
+    img{
+      width: 60%;
+    }
+  }
+  .wraper-slide-title{
+    margin-top: 90px;
+  }
+}
+//iphone 6
+@media only screen and (min-width: 414px){
+  .baner-title{
+    img{
+      width: 70%;
+    }
+  }
+}
+//iphone 5 side
+@media only screen and (min-width: 568px){
+  .baner-title{
+    img{
+      width: 90%;
+    }
+    span{
+      font-size: 18px;
+    }
+  }
+  .baner-botom{
+    font-size: 16px;
+  }
+  .wraper-slide-title{
+    margin-top: 130px;
+  }
+  .slide-title{
+    width: 150px;
+    height: 150px;
+    span{
+      font-size: 18px;
+      margin-top: 20px;
+      margin-left: 20px;
+      float: left;
+    }
+  }
+  .slide-botom{
+    span{
+      font-size: 18px;
+    }
+  }
+}
+//iphone 6 side
+@media only screen and (min-width: 667px){
+  .wraper-slide-title{
+    margin-top: 160px;
+  }
+  .slide-title{
+    span{
+      margin-left: 25px;
+    }
+  }
+  .sponsor-title{
+    font-size: 24px;
+  }
+}
+//iphone 6+ side
+@media only screen and (min-width: 736px){
+  .baner-title span{
+    font-size: 20px;
+  }
+}
+//iPad
+@media only screen and (min-width: 768px){
+  .menu-item-b{
+    display: none;
+  }
+}
+//
+@media only screen and (min-width: 1024px){
+  .menu-item-b{
+    display: none;
+  }
+  .baner-title span{
+    font-size: 28px;
+  }
+  .baner-botom{
+    font-size: 24px;
+  }
+  .sponsor-title{
+    font-size: 28px;
+  }
+  .wraper-slide-title{
+    margin-top: 200px;
+  }
+  .slide-title{
+    width: 280px;
+    height: 280px;
+    span{
+      font-size: 32px;
+      margin-top: 50px;
+      margin-left: 50px;
+    }
+  }
+  .slide-botom span{
+      font-size: 24px;
+  }
+}
+@media only screen and (min-width: 1366px){
+  .baner-title span{
+    font-size: 40px;
+  }
+
+  .wraper-slide-title{
+    margin-top: 250px;
+  }
+  .slide-title{
+    width: 350px;
+    height: 350px;
+    span{
+      font-size: 38px;
+      margin-top: 60px;
+      margin-left: 65px;
+    }
+  }
+}
+
+// page about
+//<BanerAbout>
+.wraper-values{
+  margin-bottom: 20px;
+}
+.about-wraper-title{
+  position: absolute;
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+.about-slide-title{
+  width: 150px;
+  height: 150px;
+  background-color: rgb(58, 96, 148);
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  span {
+    font-size: 9px;
+  }
+}
+.values{
+  text-align: center;
+  font-size: 28px;
+  color: #4b6693;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.value_icon{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #4273bf;
+  margin: 0 auto;
+  display: table;
+  i{
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 51px;
+    color: #fff;
+  }
+}
+.value_box{
+  text-align: center;
+}
+.value_box-title{
+  font-size: 20px;
+  font-weight: bold;
+  color: #3d4652;
+}
+.value_box-botton{
+  font-size: 16px;
+  color: #555;
+  line-height: 25px;
+  padding: 10px 0;
+}
+@media only screen and (min-width: 414px){
+  .about-wraper-title{
+    margin: 30px;
+  }
+}
+@media only screen and (min-width: 568px){
+  .about-wraper-title{
+    margin: 30px;
+  }
+  .about-slide-title{
+    width: 200px;
+    height: 200px;
+    span {
+      font-size: 18px;
+    }
+  }
+}
+@media only screen and (min-width: 768px){
+  .baner-botom{
+    font-size: 18px;
+  }
+  .about-wraper-title{
+    margin: 30px;
+  }
+  .about-slide-title{
+    width: 300px;
+    height: 300px;
+    span {
+      font-size: 24px;
+    }
+  }
+}
+@media only screen and (min-width: 1024px){
+  .about-wraper-title{
+    margin: 50px;
+  }
+  .about-slide-title{
+    width: 350px;
+    height: 350px;
+    span {
+      font-size: 28px;
+    }
+  }
+}
+@media only screen and (min-width: 1366px){
+  .about-wraper-title{
+    margin: 80px;
+  }
+  .about-slide-title{
+    width: 500px;
+    height: 500px;
+    span {
+      font-size: 32px;
+    }
+  }
+}
+//<Contact>
+.contact-main{
+  background-color: #2f3764;
+  text-align: center;
+  padding-top: 25px;
+}
+.contact-title-top{
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 33px;
+}
+.contact-title{
+  width: 100%;
+  font-size: 26px;
+  color: #e5ad38;
+}
+.control-label{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+}
+.contact-form{
+  margin-top: 25px;
+}
+.map-title{
+  width: 100%;
+  font-size: 26px;
+  color: #f9b233;
+  margin: 25px 0 10px 0;
+  float: left;
+  text-align: center;
+}
+.map-title-botton{
+  width: 100%;
+  font-size: 26px;
+  color: #f9b233;
+  margin: 25px 0 10px 0;
+  float: left;
+  text-align: center;
+}
+.map-adress{
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 33px;
+}
+.map-responsive{
+  margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px){
+  .contact-main{
+    padding-top: 50px;
+    padding-bottom: 183px;
+  }
+  .contact-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .contact-title-top{
+    float: left;
+    padding-bottom: 25px;
+  }
+  .map-title{
+    margin-top: 0px;
+  }
+  .map-title-botton{
+    margin: 30px 0 25px 0;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .contact-main{
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .contact-form{
+    margin-top: 20px;
+  }
+}
+//<games>
+.games-top{
+  background: #4b6693;
+  padding: 20px 0 0 0;
+}
+.games-botton{
+  background: #4b6693;
+  padding: 20px 0 20px 0;
+}
+.game-title{
+  position: absolute;
+  font-size: 20px;
+  color: #fff;
+  font-weight: bold;
+  margin: 20px 5px;
+}
+.gamse-circle{
+  position: absolute;
+  display: table;
+  text-align: center;
+  margin: 15px;
+}
+.gamse-circle-title{
+  width: 70px;
+  height: 70px;
+  background-color: #e5ad38;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  span {
+    font-size: 9px;
+  }
+}
+.baner-google{
+  position: absolute;
+  width: 25%;
+  top:160px;
+  left: 20px;
+}
+@media only screen and (min-width: 375px){
+  .baner-google{
+    top:180px;
+  }
+}
+@media only screen and (min-width: 414px){
+  .gamse-circle-title{
+    width: 110px;
+    height: 110px;
+    span {
+      font-size: 14px;
+    }
+  }
+  .baner-google{
+    top:210px;
+  }
+}
+@media only screen and (min-width: 568px){
+  .game-title{
+    font-size: 24px;
+    margin: 25px 15px;
+  }
+  .gamse-circle-title{
+    width: 100px;
+    height: 100px;
+    span {
+      font-size: 14px;
+    }
+  }
+  .baner-google{
+    top:280px;
+    left: 20px;
+  }
+}
+@media only screen and (min-width: 667px){
+  .gamse-circle-title{
+    width: 120px;
+    height: 120px;
+    span {
+      font-size: 16px;
+    }
+  }
+  .baner-google{
+    top:330px;
+  }
+}
+@media only screen and (min-width: 736px){
+  .gamse-circle-title{
+    width: 130px;
+    height: 130px;
+    span {
+      font-size: 16px;
+    }
+  }
+  .baner-google{
+    top:360px;
+  }
+}
+@media only screen and (min-width: 768px){
+  .game-title{
+    font-size: 30px;
+    margin: 35px 25px;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .game-title{
+    font-size: 36px;
+    margin: 45px 35px;
+  }
+  .gamse-circle-title{
+    width: 190px;
+    height: 190px;
+    span {
+      font-size: 20px;
+    }
+  }
+  .baner-google{
+    top:500px;
+  }
+}
+@media only screen and (min-width: 1366px){
+  .game-title{
+    font-size: 42px;
+    margin: 55px 45px;
+  }
+  .gamse-circle-title{
+    width: 250px;
+    height: 250px;
+    span {
+      font-size: 24px;
+    }
+  }
+  .baner-google{
+    top:680px;
+  }
+}
